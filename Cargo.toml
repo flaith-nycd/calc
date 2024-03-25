@@ -1,0 +1,8 @@
+[package]
+name = "calc"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nicolas 'flaith' Djurovic <flaithotw@gmail.com>"]
+
+[dependencies]
+regex = "1.10.3"
