@@ -1,9 +1,7 @@
 use regex::Regex;
 use std::collections::HashMap;
 use std::io;
-// use std::io::Result;
 
-// https://rosettacode.org/wiki/Parsing/RPN_to_infix_conversion
 fn get_precedence(operator: &str) -> i32 {
     let precedences = 
         HashMap::from([
